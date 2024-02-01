@@ -21,11 +21,11 @@
 
 ## How to use logged data in Matlab
 
-- 시뮬레이션 할 때 .bag file 저장 ('rosbag record --all')
+- 시뮬레이션 할 때 .bag file 저장 (`rosbag record --all`)
 
-- rosbag_example.m 파일과 같은 디렉토리로 .bag 파일을 옮김
+- `rosbag_example.m` 파일과 같은 디렉토리로 .bag 파일을 옮김
 
-- Matlab 상에서 rosbag_example.m 을 열고 섹션별로 run section 
+- Matlab 상에서 `rosbag_example.m` 을 열고 섹션별로 run section 
 
-- .bag 에서 topic 별로 추출한 변수를 .mat 으로 저장하여, 본인이 작성할 코드에 사용
+- `.bag` 에서 topic 별로 추출한 변수를 `.mat` 으로 저장하여, 본인이 작성할 코드에 사용
 
